@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuobiBot", "HuobiBot\HuobiBot.csproj", "{05DF8300-BE46-4309-B255-E0739EC17303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuobiBot", "HuobiBot\HuobiBot.csproj", "{05DF8300-BE46-4309-B255-E0739EC17303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{B8E2EA87-878C-48BC-95FA-60B788E0835F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuobiUnitTest", "HuobiUnitTest\HuobiUnitTest.csproj", "{16555875-2B0C-450B-B8E0-5147330BC458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIService", "APIService\APIService.csproj", "{2ACF925B-5B90-4622-A103-BEF2347AC626}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{05DF8300-BE46-4309-B255-E0739EC17303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05DF8300-BE46-4309-B255-E0739EC17303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05DF8300-BE46-4309-B255-E0739EC17303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E2EA87-878C-48BC-95FA-60B788E0835F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E2EA87-878C-48BC-95FA-60B788E0835F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E2EA87-878C-48BC-95FA-60B788E0835F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E2EA87-878C-48BC-95FA-60B788E0835F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16555875-2B0C-450B-B8E0-5147330BC458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16555875-2B0C-450B-B8E0-5147330BC458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16555875-2B0C-450B-B8E0-5147330BC458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16555875-2B0C-450B-B8E0-5147330BC458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACF925B-5B90-4622-A103-BEF2347AC626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACF925B-5B90-4622-A103-BEF2347AC626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACF925B-5B90-4622-A103-BEF2347AC626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACF925B-5B90-4622-A103-BEF2347AC626}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
